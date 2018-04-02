@@ -4,6 +4,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	//padding-top: 84px;
 	 color: #E4E4E4;
+	 background-image: url(../img/bg_menu.png);
 }
 
 ul, li {
@@ -16,7 +17,7 @@ ul, li {
 
 header {
 //background:  rgba(21, 21, 21, 0.5);
-	background: linear-gradient(140deg, rgba(21, 21, 21, 0.5) 33%, rgba(39, 39, 39, 0.4) 36%, rgba(22, 22, 22, 0.9) 50%);
+	background: linear-gradient(140deg, rgba(21, 21, 21, 1) 33%, rgba(39, 39, 39, 1) 36%, rgba(22, 22, 22, 1) 50%);
  height: 84px;
  position: fixed;
  width: 100%;
@@ -51,12 +52,10 @@ font-size: 20px;
 	text-transform: uppercase;
 	padding: 10px;
 	border-bottom: 0px solid #aa1104;
-	padding-bottom: 15px;
+	padding-bottom: 16px;
 	transition: all 0.3s ease;
 
 }
-
-
 
 .menu__item a:hover {
 text-decoration: none;
@@ -101,13 +100,16 @@ border-bottom: 2px solid #aa1104;
 
 
 
-#sect {
-	background-image: url("../img/bgo_2.png"), url("../img/Layer 2 copy.png");
-	background-repeat: no-repeat, repeat;
+section {
+	background-image: url("../img/Layer 2 copy.png");
+	background-repeat: repeat;
 	 background-size: 100% auto, auto;
 	 background-position: 0 20%;
-	height: 3000px;
-		padding-top: 84px;
+	height: 680px;
+		padding-top: 25px;
+		//opacity: .5;
+	//	border-bottom: 2px solid red;
+		margin-bottom: 15px;
 }
 
 /*--------------Map----------------*/
